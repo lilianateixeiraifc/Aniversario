@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&family=Roboto+Condensed:ital@0;1&display=swap');
+:root{
+    --cor-fundo:#d1d1d1;
+    --cor-titulo: #104144;
+    --cor-paragrafo:#080808;
+    --cor-link:#B30000;
+    --fonte: Oswald, Veredana;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-family:var(--fonte);
+    width: 600px;
+    max-width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: var(--cor-titulo);
+}
+
+p {
+    color: var(--cor-paragrafo);
+    font-family: var(--fonte);
+    font-size: 30px;
+}
+
+img {
+    width: 200px;
+    border-radius:50%;
+    border-width: 15px;
+    border-color:#4d968a;
+    border-style:double;
+    
+}
+
+ul {
+    list-style: none;
+    padding: 3px;
+    
+}
+
+ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+ul li a {
+    color: var(--cor-link);
+    font-size: 30px;
+}
+
+div.imagem {
+    text-align: center;
+}
+
+table {
+    color: #000000;
+    font-size: 15px;
+}
+
+table tbody tr td {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+table tbody tr td:last-child {
+    color: #2deef5
+    font-size 30xp;
+}
+
+
+
+
